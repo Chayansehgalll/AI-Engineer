@@ -83,7 +83,7 @@ def run_agent(question):
         }
     ]
 
-    for step in range(5):
+    for step in range(5): # only run the loop for 5 steps only to avoid infinite looping
 
         print("\n------------------")
         print("STEP", step + 1)
@@ -113,13 +113,13 @@ def run_agent(question):
 
         if match:
 
-            tool_name = match.group(1)
+            tool_name = match.group(1) # split the tool name and the argument, this stores tool name that is get_product_price or calculator
 
-            tool_input = match.group(2)
+            tool_input = match.group(2) # this gets the argument that is passed to the tool, for example "iPhone 17" or "5000 - 1000"
 
-            tool_input = tool_input.strip()
+            tool_input = tool_input.strip() # this gets rid of any leading or trailing whitespace from the argument
 
-            tool_input = tool_input.strip('"')
+            tool_input = tool_input.strip('"') # this gets rid of any leading or trailing double quotes from the argument
 
 
             # Run the tool
@@ -163,3 +163,37 @@ I have 5000 rupees. What is the price of an iphone 17?
 and how much money will I have left?
 """
 run_agent(prompt)
+
+#                 User Question
+#                       │
+#                       ▼
+#                run_agent()
+#                       │
+#                       ▼
+#           Send messages to Groq
+#                       │
+#                       ▼
+#         LLM writes an Action (TEXT)
+#                       │
+#                       ▼
+#        Regex extracts tool + argument
+#                       │
+#                       ▼
+#      Python executes the real function
+#                       │
+#                       ▼
+#         Observation (tool result)
+#                       │
+#                       ▼
+#  Add Observation to conversation history
+#                       │
+#                       ▼
+#        Send updated conversation again
+#                       │
+#                       ▼
+#      More tools needed?
+#           │                     │
+#          Yes                   No
+#           │                     │
+#           ▼                     ▼
+#    Repeat the loop       Final Answer
