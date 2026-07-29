@@ -142,7 +142,7 @@ def run_agent(question):
 
             # Add LLM response to memory
             messages.append({
-                "role": "assistant",
+                "role": "assistant", # assistant role is used to indicate that this message is from the AI assistant and remember the answer from the LLM
                 "content": answer
             })
 
@@ -152,7 +152,7 @@ def run_agent(question):
                 "role": "user",
                 "content":
                     "Observation: "
-                    + str(observation)
+                    + str(observation) # added observation to the conversation history so that the LLM can use it to decide what to do next
             })
             sleep(5)
 
