@@ -36,7 +36,7 @@ resume_text = f"""
     Job Title: Junior Frontend Developer
 
 Location: Bangalore, India
-Experience: 0–2 Years
+Experience: 0-2 Years
 Employment Type: Full-Time
 
 About the Role
