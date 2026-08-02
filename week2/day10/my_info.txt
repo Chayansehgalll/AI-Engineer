@@ -1,0 +1,162 @@
+Professional Summary
+
+I am a Software Engineer specializing in frontend and full-stack web development using React, TypeScript, Next.js, and Node.js. I focus on building scalable, accessible, and high-performance web applications. I enjoy optimizing frontend performance, improving developer workflows, and creating reusable component systems.
+Age: 23
+Years of Expierence - 1+ years
+Contact Information
+Email: chayansehgal3@gmail.com
+Phone: +91-7042089820
+Current Location: New Delhi, India
+
+Availability:
+Available within 2 weeks of receiving an offer.
+Open to Remote, Hybrid, or On-site opportunities.
+
+
+Technical Skills
+Programming Languages
+JavaScript (ES6+)
+TypeScript
+Python
+Java
+HTML5
+CSS3
+Frontend
+React.js
+Next.js
+Vite
+Redux Toolkit
+Context API
+Tailwind CSS
+Framer Motion
+Responsive Design
+WCAG Accessibility
+Backend
+Node.js
+Express.js
+REST API Design
+JWT Authentication
+Databases
+MongoDB
+MySQL
+Mongoose
+Performance Optimization
+Code Splitting
+Lazy Loading
+Core Web Vitals Optimization
+React.lazy
+useMemo
+useCallback
+Lighthouse Auditing
+DevOps & Deployment
+Git
+GitHub
+GitHub Actions
+Vercel
+Render
+Testing
+Functionize
+Functional Testing
+Manual Testing
+Tools
+JIRA
+Figma
+ESLint
+AI Skills
+Prompt Engineering
+LLM Integration
+Google Gemini API
+
+
+Professional Experience
+Junior Software Engineer — Innova Solutions
+Key achievements:
+
+Built TalentX recruitment platform.
+Served 200+ daily users.
+Supported 4 dashboards.
+Managed candidate tracking through 5 interview stages.
+Improved page load time from 3.2s to 2.1s through React performance optimization.
+Built 25+ reusable React components using TypeScript.
+Implemented semantic HTML and ARIA accessibility.
+Created GitHub Actions CI pipelines.
+Performed Functionize automation testing and manual regression testing.
+Resolved 70+ JIRA tickets.
+Participated in peer code reviews.
+Worked within a 9-member Agile team.
+
+
+Software Development Engineer Intern
+Highlights:
+Learned the company's codebase, development workflow, and Agile practices by participating in daily Scrum meetings and team discussions.
+Started by fixing minor UI bugs and implementing small frontend enhancements under the guidance of senior developers.
+Converted Figma designs into responsive React components while following existing design and coding standards.
+Assisted in optimizing React components using techniques like useMemo and useCallback to improve application performance.
+Contributed to migrating frontend applications from Create React App to Vite and supported testing to ensure a smooth transition.
+Worked with Git, JIRA, and REST APIs while collaborating with frontend, backend, and QA teams to deliver production-ready features.
+
+Projects
+ATS Resume Optimizer
+Features:
+Google Gemini API integration.
+Resume parsing using pdf-parse and Mammoth.
+Processed over 500 resumes.
+Average parsing time under 4 seconds.
+AI-powered resume improvement suggestions.
+Side-by-side resume comparison.
+Real-time React dashboard.
+
+Talkify
+Features:
+Socket.IO based messaging.
+Multiple chat rooms.
+Online/offline presence.
+Typing indicators.
+Mobile-first responsive UI.
+Theme support.
+
+3D Portfolio
+Features:
+Three.js
+Framer Motion
+Interactive 3D animations
+Responsive design
+Optimized asset loading
+Engineering Strengths
+
+
+I enjoy:
+Performance optimization
+Building reusable UI components
+Frontend architecture
+Accessibility
+React ecosystem
+Developer experience improvements
+Clean code
+Scalable frontend systems
+AI-powered developer tools
+Quantifiable Achievements
+
+9.31/10 CGPA 
+Top 5% of graduating class.
+25+ reusable components.
+500+ resumes processed.
+200+ daily TalentX users.
+70+ JIRA tickets resolved.
+12+ production features delivered.
+Zero production rollbacks across 4 sprint cycles.
+
+
+Tell me about yourself ?
+Hi, I'm Chayan Sehgal, currently working as a Junior Software Engineer at Innova Solutions. My background is in frontend engineering, where I've built scalable web applications using React, Next.js, and TypeScript, with a strong focus on performance optimization and user experience.
+While working on frontend projects, I developed a strong interest in AI engineering. I've been learning about LLMs, prompt engineering, and AI integrations, and have built projects like an AI-powered ATS Resume Optimizer. I'm now looking to leverage my software engineering foundation and transition into an AI Engineer role, where I can build intelligent, AI-driven applications.
+
+What salary are you expecting?
+I'm primarily looking for a role that offers strong learning opportunities, meaningful engineering work, and long-term career growth. Based on my experience and current market standards, I'm looking for a package in the range of ₹10–14 LPA, but I'm open to discussing the overall compensation based on the role, responsibilities, and growth opportunities.
+
+When can you join?
+I can join within 2 weeks of receiving an offer.
+
+Describe your current role.
+I currently work as a Junior Software Engineer at Innova Solutions. My primary responsibility is developing and maintaining frontend applications using React, TypeScript, and Next.js for the TalentX recruitment platform.
+My work includes building reusable UI components, optimizing application performance, integrating REST APIs, improving Core Web Vitals, and collaborating with backend developers and designers to deliver production-ready features.
