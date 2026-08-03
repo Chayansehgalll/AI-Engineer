@@ -102,39 +102,16 @@ def ask_ai(question):
     return assistant_reply
 
 
-if __name__ == "__main__":
+    if __name__ == "__main__":
 
-    print("Chayan AI Assistant")
-    print("Type 'exit' to quit")
+        print("Chayan AI Assistant")
+        print("Type 'exit' to quit")
 
-    while True:
+        while True:
+            question = input("\nYou: ")
 
-        question = input("\nYou: ")
+            if question.lower() == "exit":
+                print("Goodbye!")
+                break
 
-        if question.lower() == "exit":
-            print("\nGoodbye!")
-            break
-
-        print("\nAI: ", end="", flush=True)
-        messages.append({"role": "user", "content": question})
-        stream = client.chat.completions.create(
-            model=model,
-            messages=messages,
-            stream=True
-        )
-
-        assistant_reply = ""
-
-        for chunk in stream:
-            content = chunk.choices[0].delta.content or ""
-            print(content, end="", flush=True)
-            assistant_reply += content
-
-        print()
-
-        messages.append(
-            {
-                "role": "assistant",
-                "content": assistant_reply
-            }
-        )
+            ask_ai(question)
