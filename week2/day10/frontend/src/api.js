@@ -1,4 +1,5 @@
 const API_URL = "https://ai-engineer-f0ri.onrender.com";
+
 export async function sendMessage(message) {
   const res = await fetch(`${API_URL}/chat`, {
     method: "POST",
