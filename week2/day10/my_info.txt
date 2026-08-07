@@ -1,162 +1,277 @@
 Professional Summary
 
-I am a Software Engineer specializing in frontend and full-stack web development using React, TypeScript, Next.js, and Node.js. I focus on building scalable, accessible, and high-performance web applications. I enjoy optimizing frontend performance, improving developer workflows, and creating reusable component systems.
+I am a Full-Stack Software Engineer with 1+ year of experience building production-grade web applications using React, Next.js, TypeScript, and Node.js. Recently, I've expanded into AI engineering by developing LLM-powered applications, integrating AI APIs, and implementing prompt engineering, streaming responses, and context-aware systems. I enjoy building scalable, high-performance software that combines modern web technologies with AI.
+
 Age: 23
-Years of Expierence - 1+ years
+Years of Experience: 1+ Years
+
 Contact Information
+
 Email: chayansehgal3@gmail.com
 Phone: +91-7042089820
 Current Location: New Delhi, India
 
-Availability:
+Availability
 Available within 2 weeks of receiving an offer.
 Open to Remote, Hybrid, or On-site opportunities.
-
-
 Technical Skills
 Programming Languages
 JavaScript (ES6+)
 TypeScript
 Python
-Java
-HTML5
-CSS3
 Frontend
 React.js
 Next.js
-Vite
-Redux Toolkit
-Context API
 Tailwind CSS
+Vite
 Framer Motion
-Responsive Design
-WCAG Accessibility
 Backend
 Node.js
 Express.js
-REST API Design
+REST APIs
 JWT Authentication
+AI / LLM
+Prompt Engineering
+Google Gemini API
+Groq API
+LLM Integration
+Streaming APIs
+Context Filtering
 Databases
 MongoDB
 MySQL
-Mongoose
 Performance Optimization
 Code Splitting
 Lazy Loading
-Core Web Vitals Optimization
-React.lazy
-useMemo
-useCallback
-Lighthouse Auditing
+Core Web Vitals
+Memoization
 DevOps & Deployment
 Git
 GitHub
 GitHub Actions
 Vercel
 Render
+CI/CD
 Testing
 Functionize
-Functional Testing
+Selenium
 Manual Testing
-Tools
-JIRA
-Figma
-ESLint
-AI Skills
-Prompt Engineering
-LLM Integration
-Google Gemini API
-
-
 Professional Experience
 Junior Software Engineer — Innova Solutions
-Key achievements:
-
-Built TalentX recruitment platform.
-Served 200+ daily users.
-Supported 4 dashboards.
-Managed candidate tracking through 5 interview stages.
-Improved page load time from 3.2s to 2.1s through React performance optimization.
-Built 25+ reusable React components using TypeScript.
-Implemented semantic HTML and ARIA accessibility.
-Created GitHub Actions CI pipelines.
-Performed Functionize automation testing and manual regression testing.
-Resolved 70+ JIRA tickets.
-Participated in peer code reviews.
-Worked within a 9-member Agile team.
-
-
+Key Achievements
+Migrated 3 production applications from CRA to Vite, reducing build time by 93%.
+Reduced page load time from 3.2s to 2.1s through React optimization.
+Built a reusable TypeScript component system with 25+ components.
+Implemented GitHub Actions CI pipelines.
+Delivered zero production rollbacks across six sprint cycles.
 Software Development Engineer Intern
-Highlights:
-Learned the company's codebase, development workflow, and Agile practices by participating in daily Scrum meetings and team discussions.
-Started by fixing minor UI bugs and implementing small frontend enhancements under the guidance of senior developers.
-Converted Figma designs into responsive React components while following existing design and coding standards.
-Assisted in optimizing React components using techniques like useMemo and useCallback to improve application performance.
-Contributed to migrating frontend applications from Create React App to Vite and supported testing to ensure a smooth transition.
-Worked with Git, JIRA, and REST APIs while collaborating with frontend, backend, and QA teams to deliver production-ready features.
-
+Highlights
+Improved LCP from 4.8s to 2.1s using React performance optimization.
+Delivered 12+ production features.
+Resolved 20+ JIRA tickets.
+Worked in a 9-member Agile team.
+Contributed to the TalentX recruitment platform.
 Projects
-ATS Resume Optimizer
-Features:
-Google Gemini API integration.
-Resume parsing using pdf-parse and Mammoth.
-Processed over 500 resumes.
-Average parsing time under 4 seconds.
-AI-powered resume improvement suggestions.
-Side-by-side resume comparison.
-Real-time React dashboard.
+Personal AI Assistant
 
+Tech Stack: React.js • Node.js • LLM APIs
+
+Features
+AI assistant with streaming responses.
+Conversation memory.
+Prompt-engineered guardrails.
+Domain-restricted responses.
+Context-aware interactions.
+Modular architecture ready for RAG and tool calling.
+Rivanto Mattress (E-commerce)
+
+Tech Stack: Next.js • TypeScript • Node.js • Razorpay
+
+Features
+Production-ready e-commerce website.
+Secure Razorpay payment integration.
+Backend price validation.
+HMAC signature verification.
+Responsive UI.
+Scalable architecture.
 Talkify
-Features:
-Socket.IO based messaging.
+
+Tech Stack: MERN • Socket.IO
+
+Features
+Real-time messaging.
 Multiple chat rooms.
-Online/offline presence.
+Online/offline status.
 Typing indicators.
 Mobile-first responsive UI.
 Theme support.
-
-3D Portfolio
-Features:
-Three.js
-Framer Motion
-Interactive 3D animations
-Responsive design
-Optimized asset loading
 Engineering Strengths
 
-
 I enjoy:
+
+Building AI-powered applications
+LLM integrations
 Performance optimization
-Building reusable UI components
-Frontend architecture
-Accessibility
+Full-stack architecture
+Secure payment systems
 React ecosystem
-Developer experience improvements
 Clean code
-Scalable frontend systems
-AI-powered developer tools
+Scalable software design
+Developer experience improvements
 Quantifiable Achievements
+9.31/10 CGPA
+Top 5% of graduating class
+93% faster build times
+34% faster page loads
+25+ reusable components built
+12+ production features delivered
+20+ JIRA tickets resolved
+Zero rollbacks across 6 sprint cycles
+Tell me about yourself
 
-9.31/10 CGPA 
-Top 5% of graduating class.
-25+ reusable components.
-500+ resumes processed.
-200+ daily TalentX users.
-70+ JIRA tickets resolved.
-12+ production features delivered.
-Zero production rollbacks across 4 sprint cycles.
+Hi, I'm Chayan Sehgal, currently working as a Junior Software Engineer at Innova Solutions. Over the past year, I've built production applications using React, Next.js, TypeScript, and Node.js, focusing on performance optimization, reusable component systems, and scalable frontend architecture.
 
+Alongside my software engineering work, I've developed a strong interest in AI engineering. I've been building AI-powered applications using LLM APIs, prompt engineering, streaming responses, and context-aware systems. One of my recent projects is a Personal AI Assistant designed with conversation memory and domain-specific guardrails, and I'm currently expanding my knowledge into technologies like LangChain, RAG, and AI agents.
 
-Tell me about yourself ?
-Hi, I'm Chayan Sehgal, currently working as a Junior Software Engineer at Innova Solutions. My background is in frontend engineering, where I've built scalable web applications using React, Next.js, and TypeScript, with a strong focus on performance optimization and user experience.
-While working on frontend projects, I developed a strong interest in AI engineering. I've been learning about LLMs, prompt engineering, and AI integrations, and have built projects like an AI-powered ATS Resume Optimizer. I'm now looking to leverage my software engineering foundation and transition into an AI Engineer role, where I can build intelligent, AI-driven applications.
+I'm looking for an opportunity where I can combine my software engineering foundation with AI to build intelligent, production-ready applications.
 
 What salary are you expecting?
+
 I'm primarily looking for a role that offers strong learning opportunities, meaningful engineering work, and long-term career growth. Based on my experience and current market standards, I'm looking for a package in the range of ₹10–14 LPA, but I'm open to discussing the overall compensation based on the role, responsibilities, and growth opportunities.
 
 When can you join?
+
 I can join within 2 weeks of receiving an offer.
 
-Describe your current role.
-I currently work as a Junior Software Engineer at Innova Solutions. My primary responsibility is developing and maintaining frontend applications using React, TypeScript, and Next.js for the TalentX recruitment platform.
-My work includes building reusable UI components, optimizing application performance, integrating REST APIs, improving Core Web Vitals, and collaborating with backend developers and designers to deliver production-ready features.
+Describe your current role
+
+I currently work as a Junior Software Engineer at Innova Solutions, where I develop and maintain production web applications using React, Next.js, TypeScript, and Node.js.
+
+My responsibilities include building reusable UI components, improving application performance, integrating REST APIs, implementing CI/CD pipelines, optimizing Core Web Vitals, and collaborating with cross-functional teams to deliver high-quality production features. I've also contributed to migrating applications to Vite, reducing build times significantly, and ensuring stable deployments with zero production rollbacks.
+
+
+1. Tell me about yourself
+
+Hi, I'm Chayan Sehgal. I'm currently working as a Junior Software Engineer at Innova Solutions with over a year of experience building production web applications using React, Next.js, TypeScript, and Node.js.
+
+In my current role, I've worked on performance optimization, reusable component systems, CI/CD, and production deployments. Some measurable outcomes include reducing build times by 93%, improving page load time by 34%, and contributing to zero production rollbacks across multiple sprint cycles.
+
+Alongside my software engineering work, I've been learning AI technologies such as LLMs, prompt engineering, LangChain, and RAG. I've built projects like a Personal AI Assistant and I'm now looking for opportunities where I can combine my software engineering experience with AI to build intelligent applications.
+
+2. Walk me through your resume
+
+My journey started with frontend development using React. During my internship at Innova Solutions, I learned enterprise development practices and worked on production applications.
+
+After becoming a full-time engineer, I worked on performance optimization, reusable component libraries, CI/CD pipelines, and frontend architecture.
+
+Outside work, I've built projects like a Personal AI Assistant using LLM APIs, Talkify (real-time chat), and Rivanto Mattress, an e-commerce platform with secure Razorpay integration.
+
+Currently, my focus is transitioning toward AI Engineering while leveraging my full-stack background.
+
+3. Why are you looking for a change?
+
+I've learned a lot in my current role, especially around frontend engineering and production software development.
+
+However, my long-term goal is to work as an AI Engineer. I've been investing significant time learning LLMs and building AI projects, and I'm now looking for a role where I can work more closely with AI, automation, and intelligent systems while continuing to grow as an engineer.
+
+4. Why do you want to join us?
+
+Your role aligns closely with the direction I want to build my career in. I enjoy solving engineering problems, and I'm particularly interested in applying AI to real business use cases. I believe my software engineering foundation combined with my AI learning will allow me to contribute while continuing to learn from experienced engineers.
+
+5. Tell me about your current role.
+
+I work as a Junior Software Engineer at Innova Solutions.
+
+My responsibilities include:
+
+Building React and Next.js applications
+Developing reusable TypeScript components
+Performance optimization
+API integration
+Code reviews
+CI/CD implementation using GitHub Actions
+Working in Agile teams
+6. What project are you most proud of?
+Personal AI Assistant
+
+My favorite project is the Personal AI Assistant.
+
+I built a React frontend with a Node.js backend that integrates LLM APIs.
+
+The assistant supports streaming responses, conversation memory, and prompt-based guardrails that restrict responses to specific domains. I also designed the architecture so future features like RAG, tool calling, and multi-model routing can be added easily.
+
+7. Explain the Rivanto project.
+
+Rivanto is a production-ready e-commerce platform built for a real client.
+
+My focus was not only on the frontend but also on building a secure checkout flow.
+
+Instead of trusting prices from the frontend, the backend calculates the final amount before creating the Razorpay order. After payment, I verify the HMAC signature on the server before confirming the transaction. This prevents price tampering and fake payment requests.
+
+8. Explain your AI project.
+
+My AI Assistant integrates LLM APIs into a React and Node.js application.
+
+Key features include:
+
+Streaming responses
+Conversation memory
+Prompt engineering
+Context filtering
+Domain restriction
+Modular architecture
+
+I'm currently learning LangChain and RAG so I can make the assistant more capable.
+
+9. What has been your biggest achievement?
+
+One achievement I'm proud of is migrating production applications from Create React App to Vite. This reduced build time from around 45 seconds to about 3 seconds, improving the developer experience and deployment efficiency.
+
+10. Tell me about a challenge you faced.
+
+One challenge was improving application performance without affecting existing functionality.
+
+I profiled components using React DevTools, identified unnecessary re-renders, introduced memoization where appropriate, and implemented route-level code splitting. This helped reduce page load time while maintaining the existing user experience.
+
+11. Why AI?
+
+While working as a software engineer, I realized I enjoy building intelligent systems more than traditional CRUD applications.
+
+Learning about LLMs and AI opened up opportunities to solve more complex problems. Since I already have a strong software engineering background, moving into AI feels like a natural progression.
+
+12. What are you currently learning?
+
+I'm currently learning:
+
+LangChain
+Retrieval-Augmented Generation (RAG)
+AI Agents
+MCP
+Vector Databases
+Prompt Engineering
+Agentic Workflows
+13. Why should we hire you?
+
+I bring a combination of production software engineering experience and a strong interest in AI.
+
+I understand how to build scalable applications, write maintainable code, and work in Agile teams. At the same time, I'm continuously building AI projects and expanding my knowledge, which allows me to contribute to both software engineering and AI-focused work.
+
+14. What are your strengths?
+Quick learner
+Problem-solving
+Ownership
+Clean coding practices
+Performance optimization
+Strong React ecosystem knowledge
+AI curiosity and continuous learning
+15. What are your weaknesses?
+
+Earlier, I tended to spend too much time perfecting implementation details. Over time, I've learned to balance quality with delivery timelines by prioritizing impactful improvements and iterating based on feedback.
+
+16. Where do you see yourself in five years?
+
+I see myself working as an AI Engineer, building production AI systems and contributing to large-scale intelligent applications. I also hope to mentor junior engineers and take ownership of end-to-end AI solutions.
+
+17. Why should we choose you over other candidates?
+
+I offer a blend of practical production experience and a clear growth trajectory into AI. I've worked on enterprise applications, delivered measurable performance improvements, and built AI-powered projects independently. I'm eager to learn, adapt quickly, and contribute from day one.
