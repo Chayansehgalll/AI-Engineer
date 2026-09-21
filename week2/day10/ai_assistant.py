@@ -2,9 +2,6 @@ import os
 
 from dotenv import load_dotenv
 from groq import Groq
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
 
 
 # -------------------------
@@ -94,43 +91,10 @@ details that are not mentioned, say:
 
 
 # -------------------------
-# FastAPI
+# AI function
 # -------------------------
 
-app = FastAPI()
-
-
-# -------------------------
-# CORS
-# -------------------------
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=[
-        "https://ai-engineer-sooty.vercel.app",
-        "http://localhost:3000",
-        "http://localhost:5173",
-    ],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-
-# -------------------------
-# Request model
-# -------------------------
-
-class ChatRequest(BaseModel):
-    message: str
-
-
-# -------------------------
-# Chat endpoint
-# -------------------------
-
-@app.post("/chat")
-async def chat(request: ChatRequest):
+def ask_ai(question: str) -> str:
 
     messages = [
         {
@@ -139,7 +103,7 @@ async def chat(request: ChatRequest):
         },
         {
             "role": "user",
-            "content": request.message
+            "content": question
         }
     ]
 
@@ -149,19 +113,4 @@ async def chat(request: ChatRequest):
         stream=False
     )
 
-    assistant_reply = response.choices[0].message.content
-
-    return {
-        "response": assistant_reply
-    }
-
-
-# -------------------------
-# Health check
-# -------------------------
-
-@app.get("/")
-def root():
-    return {
-        "message": "Chayan AI Assistant API is running"
-    }
+    return response.choices[0].message.content
