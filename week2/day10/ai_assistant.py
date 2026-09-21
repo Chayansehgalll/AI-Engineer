@@ -1,11 +1,18 @@
 import os
+
 from dotenv import load_dotenv
 from groq import Groq
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
+
+# -------------------------
+# Load environment variables
+# -------------------------
+
 load_dotenv()
+
 
 # -------------------------
 # Groq setup
@@ -17,6 +24,7 @@ if not my_api_key:
     raise ValueError("GROQ_API_KEY is missing")
 
 client = Groq(api_key=my_api_key)
+
 model = "openai/gpt-oss-120b"
 
 
@@ -114,7 +122,7 @@ app.add_middleware(
 # -------------------------
 
 class ChatRequest(BaseModel):
-    question: str
+    message: str
 
 
 # -------------------------
@@ -131,7 +139,7 @@ async def chat(request: ChatRequest):
         },
         {
             "role": "user",
-            "content": request.question
+            "content": request.message
         }
     ]
 
