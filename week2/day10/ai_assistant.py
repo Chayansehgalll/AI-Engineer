@@ -17,7 +17,7 @@ if not my_api_key:
     raise ValueError("GROQ_API_KEY is missing")
 
 client = Groq(api_key=my_api_key)
-model = "llama-3.3-70b-versatile"
+model = "openai/gpt-oss-120b"
 
 
 # -------------------------
