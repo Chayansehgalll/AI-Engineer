@@ -147,7 +147,6 @@ export default function App() {
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={handleKeyDown}
             placeholder="Ask about Chayan..."
-            placeholder="Ask about Chayan..."
           />
 
           <button onClick={handleSend} disabled={loading}>
