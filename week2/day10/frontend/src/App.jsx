@@ -9,9 +9,13 @@ export default function App() {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
 
+
   const messagesEndRef = useRef(null);
 
   useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({
+      behavior: "smooth",
+    });
     messagesEndRef.current?.scrollIntoView({
       behavior: "smooth",
     });
@@ -21,6 +25,7 @@ export default function App() {
     if (!input.trim() || loading) return;
 
     const question = input.trim();
+
 
     setInput("");
     setLoading(true);
@@ -82,11 +87,15 @@ export default function App() {
     if (e.key === "Enter") {
       handleSend();
     }
+    if (e.key === "Enter") {
+      handleSend();
+    }
   }
 
   return (
     <div className="page">
       <div className="chat-container">
+
         <div className="chat-header">
           <span className="status-dot"></span>
           <h2>Chayan's AI Representative</h2>
@@ -138,12 +147,14 @@ export default function App() {
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={handleKeyDown}
             placeholder="Ask about Chayan..."
+            placeholder="Ask about Chayan..."
           />
 
           <button onClick={handleSend} disabled={loading}>
             {loading ? "..." : "Send"}
           </button>
         </div>
+
       </div>
     </div>
   );
