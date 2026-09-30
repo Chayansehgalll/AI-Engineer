@@ -132,3 +132,29 @@ body {
   opacity: 0.4;
   cursor: not-allowed;
 }
+
+/* Markdown formatting inside assistant bubble */
+.markdown-content p {
+  margin: 0 0 10px 0;
+  line-height: 1.5;
+}
+
+.markdown-content p:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+  margin: 8px 0 12px 18px;
+  padding: 0;
+}
+
+.markdown-content li {
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.markdown-content strong {
+  font-weight: 600;
+  color: inherit;
+}
