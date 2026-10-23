@@ -1,0 +1,171 @@
+:root {
+  color-scheme: light;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #182126;
+  background: #f4f7f6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 390px;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+header {
+  padding: 4px 2px 16px;
+}
+
+.eyebrow {
+  color: #087f69;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+}
+
+h1 {
+  margin: 7px 0;
+  font-size: 24px;
+}
+
+h2 {
+  margin: 0 0 8px;
+  font-size: 15px;
+}
+
+p {
+  margin: 0;
+}
+
+.muted,
+footer {
+  color: #647277;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.card {
+  margin: 0 0 12px;
+  padding: 15px;
+  border: 1px solid #dce5e2;
+  border-radius: 12px;
+  background: #fff;
+}
+
+form {
+  display: grid;
+  gap: 7px;
+  margin-top: 13px;
+}
+
+label {
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+select,
+input,
+textarea {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #cbd7d3;
+  border-radius: 7px;
+  background: #fff;
+  color: inherit;
+  font: inherit;
+  font-size: 12px;
+}
+
+textarea {
+  margin: 11px 0 9px;
+  resize: vertical;
+  line-height: 1.45;
+}
+
+button {
+  width: 100%;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 7px;
+  background: #087f69;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #066b59;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: wait;
+}
+
+button.secondary {
+  margin-top: 4px;
+  background: #e7f4f1;
+  color: #086b5a;
+}
+
+.resume-list {
+  display: grid;
+  gap: 6px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.resume-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 7px 9px;
+  border-radius: 6px;
+  background: #f4f7f6;
+  font-size: 11px;
+}
+
+.remove-button,
+.text-button {
+  width: auto;
+  padding: 0;
+  background: transparent;
+  color: #a13737;
+  font-size: 11px;
+}
+
+.remove-button:hover,
+.text-button:hover {
+  background: transparent;
+  text-decoration: underline;
+}
+
+.result {
+  margin-top: 8px;
+  color: #086b5a;
+  font-size: 12px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.result.error {
+  color: #a13737;
+}
+
+footer {
+  padding: 3px 2px 5px;
+}
+
+.text-button {
+  display: block;
+  margin-top: 8px;
+}

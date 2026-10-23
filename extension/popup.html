@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Tailor</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="eyebrow">LOCAL-FIRST RESUME TOOL</div>
+        <h1>Resume Tailor</h1>
+        <p class="muted">Build a one-page, ATS-friendly Overleaf resume using your own experience.</p>
+      </header>
+
+      <section class="card">
+        <h2>Your resume library</h2>
+        <p class="muted">Add up to four resume versions. The AI compares them with each job description and selects relevant, supported details. PDF, DOCX, and TXT are supported.</p>
+        <form id="resume-form">
+          <label for="category">Resume label</label>
+          <select id="category" required>
+            <option value="backend">Backend</option>
+            <option value="genai">GenAI</option>
+            <option value="fullstack">Fullstack</option>
+            <option value="frontend">Frontend</option>
+          </select>
+          <label for="resume-file">Resume file</label>
+          <input id="resume-file" type="file" accept=".pdf,.docx,.txt" required />
+          <button id="upload-button" class="secondary" type="submit">Add resume</button>
+        </form>
+        <button id="folder-button" class="secondary" type="button">Replace library with extension/resumes files</button>
+        <ul id="resume-list" class="resume-list"></ul>
+      </section>
+
+      <section class="card">
+        <h2>Current job description</h2>
+        <p id="job-status" class="muted">Open a job listing, then open this extension.</p>
+        <textarea id="job-description" rows="7" placeholder="Job description text appears here. You can also paste it manually."></textarea>
+        <button id="generate-button" type="button">Generate one-page LaTeX resume</button>
+        <p id="result" class="result" role="status"></p>
+      </section>
+
+      <footer>
+        Resume files are extracted by your local backend and saved only in this browser. Nothing is sent to an AI provider until you generate a resume.
+        <button id="clear-button" class="text-button" type="button">Clear saved resumes</button>
+      </footer>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
