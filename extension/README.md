@@ -84,31 +84,29 @@ Experience, Projects, Education). It uses a single text column, plain-text
 skill categories, standard headings, and selectable text to improve ATS
 parsing; ATS systems vary, so compatibility cannot be guaranteed. The AI tailors
 the summary to the job description while leading with the candidate's actual
-source-supported professional identity; it does not force the target title into
-the summary as a headline, but includes the exact target title once in a natural
-summary sentence when the job description states one. The name and contact line
-have added spacing, and detected email addresses and web links are clickable.
-The template uses increased text leading and section/list spacing to reduce
-unused space at the bottom. Content flows from the first page instead of being
-placed in a single page-sized box that can shift to a blank first page.
-It aims for a substantive 60-80 word summary when supported by your source
-resumes, about 4 evidence-backed bullets per role when available, and 3-4 per
-selected project when supported by the source. If the summary or bullet lists
-are too short, the backend retries with specific feedback rather than returning
-the incomplete result. It includes relevant
-skill categories and technologies supported by
-the sources instead of over-compressing them. Closely related JD skills may
-appear inline in the relevant skill category, marked with a verification note
-and the related source skill; remove any that do not accurately describe you
-before applying. For example, Python DSA experience does not establish Java
-DSA experience, so Java DSA may only appear as a clearly marked suggestion in
-the skills list, never as confirmed experience. The template uses
-10-point body text and more vertical spacing. Check the compiled PDF for
-readability and page count in Overleaf. The AI is
-instructed to compare all saved resume versions with the job description, use
-only source-supported facts, keep role titles and dates unchanged, use exact
-job-description keywords only when supported by the source, and omit
-unsupported qualifications. Review the compiled PDF for accuracy before using
+source-supported professional identity. When the job description has a clear
+title, the exact title appears as a heading below the candidate's name, not as
+a claim about a role the candidate already holds or a repeated phrase in the
+summary. Relevant React/frontend projects are prioritized for frontend and
+full-stack roles when supported by the source resumes. The name and contact
+line have added spacing, and detected email addresses and web links are clickable.
+The template keeps the content in a single page-sized box and scales it down
+only when needed to fit the page. The AI aims for a substantive 50-65 word
+summary, up to two concise bullets per role, and three detailed bullets per
+selected project.
+Project sections prioritize substantive, source-backed bullets
+per project, usually 15-25 words each, preserving implementation, feature,
+security, integration, and performance details rather than compressing them
+into generic one-liners. When space is tight, the generator trims summary,
+skills, or experience detail before project evidence. The backend retries when
+the summary or bullet lists do not meet its minimum quality checks. It includes
+relevant skill categories and technologies supported by the sources and does not
+suggest unverified skills. The design
+uses a compact 10-point base font; check the compiled PDF for readability in
+Overleaf, especially if the source contains extensive material. The AI compares
+all saved resume versions with the job description, uses only source-supported
+facts, keeps role titles and dates unchanged, and uses exact JD keywords only
+when supported by the source. Review the compiled PDF for accuracy before using
 it. A keyword coverage score is shown only when the AI returns a complete
 keyword analysis; it is a rough estimate, not a hiring prediction.
 Scanned PDFs without an embedded text layer need OCR before they can be used.
